@@ -1,5 +1,3 @@
 # fcpatrick.github.io
 
-This is my personal blog. All the opinions and mistakes are mine alone.
-
-This website is built with Jekyll.
+This is my personal blog and it is built with Jekyll. All the opinions and mistakes are mine alone.

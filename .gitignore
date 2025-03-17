@@ -1,2 +1,7 @@
-vendor/
+# Jekyll
+.jekyll-cache/
+_site/
 
+# Bundler
+.bundle/
+vendor/
