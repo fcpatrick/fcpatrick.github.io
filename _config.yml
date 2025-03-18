@@ -1,3 +1,8 @@
 sass:
   sass_dir: _sass
   style: compressed
+plugins:
+  - jekyll-sitemap
+safe: true
+whitelist:
+  - jekyll-sitemap
