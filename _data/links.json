@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Início",
+        "url": "/",
+        "is_active": true,
+        "icon": "home"
+    },
+    {
+        "name": "Projetos",
+        "url": "/projects/",
+        "is_active": false,
+        "icon": "code"
+    },
+    {
+        "name": "Blog",
+        "url": "/blog/",
+        "is_active": true,
+        "icon": "pen-tool"
+    },
+    {
+        "name": "Sobre",
+        "url": "/about/",
+        "is_active": false,
+        "icon": "info"
+    },
+    {
+        "name": "Contato",
+        "url": "/contact/",
+        "is_active": false,
+        "icon": "mail"
+    }
+]
