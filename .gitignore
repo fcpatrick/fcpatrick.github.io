@@ -1,5 +1,6 @@
 # Jekyll
 .jekyll-cache/
+_drafts/
 _site/
 
 # Bundler

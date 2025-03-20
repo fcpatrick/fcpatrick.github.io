@@ -1,7 +1,26 @@
-url: "https://fcpatrick.github.io"
+source: .
+destination: ./_site
+
+timezone: America/Sao_Paulo
+url: https://fcpatrick.github.io
+
+collections:
+  posts:
+    output: true
+    # Default permalink: /:categories/:year/:month/:day/:title:output_ext
+    permalink: /blog/:year/:name:output_ext
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
 sass:
   sass_dir: _sass
   style: compressed
+
 plugins:
   - jekyll-sitemap
 safe: true

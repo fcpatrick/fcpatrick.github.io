@@ -2,4 +2,13 @@
 layout: default
 title: Home
 ---
-<h1>Olá, mundo!</h1>
+<h1>FC Patrick</h1>
+
+<h2><a href="/blog/">Blog</a></h2>
+<h3>Últimas Publicações</h3>
+
+<ul>
+    {% for post in site.posts limit:5 %}
+    <li><a href="{{ post.url }}">&lbrack;{{ post.date | date: "%d&centerdot;%m&centerdot;%Y" }}&rbrack; {{ post.title }}</a></li>
+    {% endfor %}
+</ul>
