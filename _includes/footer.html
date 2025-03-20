@@ -1,0 +1,10 @@
+<footer>
+    <div>
+        <div></div>
+        <div></div>
+    </div>
+    <div>
+        {% assign current_year = "now" | date: "%Y" %}
+        <p>&copy; {% unless current_year == "2025" %}2025&ndash;{% endunless %}{{ current_year }} FC Patrick</p>
+    </div>
+</footer>
