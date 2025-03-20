@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<div>
+    <div>
+        <ul>
+            <li>data: {{ page.date | date: "%d&CenterDot;%m&CenterDot;%Y" }}</li>
+            <li>autor: {{ page.author }}</li>
+            <li>tags: {% for tag in page.tags %}{{ tag }}{% endfor %}</li>
+        </ul>
+    </div>
+</div>
+
+{{ content }}
